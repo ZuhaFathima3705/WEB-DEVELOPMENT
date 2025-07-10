@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "SERVICE RATES OF 2025"
+	},
+	data: [{        
+		type: "line",
+      	indexLabelFontSize: 16,
+		dataPoints: [
+			{ y: 420 },
+			{ y: 414},
+			{ y: 520, indexLabel: "\u2191 highest",markerColor: "red", markerType: "triangle" },
+			{ y: 460 },
+			{ y: 450 },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 480 },
+			{ y: 410 , indexLabel: "\u2193 lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 510 }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+    <div style="display: flex; gap: 90px;background-color: rgb(60, 0, 255);">
+        <div style="padding-left: 50px;">
+            <img src="logo-official.jpg" width="200" height="100" alt="logo">
+        </div>
+        <div>
+            <ul style="display: flex; gap: 30px; color: white;">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PROJECTS</li>
+                <li>CONTACTS</li>
+                <li>ENQUIRY</li>
+                <li>REGISTER</li><br>
+            </ul>
+        </div>
+        <div style=" gap:20px;">
+            <p style="color: rgb(178, 173, 173);">
+                Have any questions?
+            </p>
+            <br>
+            <p style="color: rgb(18, 216, 18);">
+                Call: +91 80569 97651
+            </p>
+        </div>
+    </div>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+
+    <footer>
+        <div style="background-color: rgb(41, 40, 40);display: flex; gap: 110px; padding-left: 40px;">
+            <div style=" text-align: left; ">
+                <h1 style="font-size: 35px; color: blue;"> TOP TECH</h1>
+                <h3 style="color: white;">We Are from Top Tech Developers..<br> We provide more then projects and real
+                    time
+                    job based Training . <br>Communication classes Are available now.. </p>
+            </div>
+            <div style="text-align: center;">
+                <h1 style="font-size: 35px; color: blue;">Short Link</h1>
+                <h3 style="color: white;">
+                    <ul>
+                        <li>About us</li>
+                        <li>Contact us</li>
+                        <li>Our Services</li>
+                        <li>Our Projects</li>
+                        <li>Latest Blog</li>
+                    </ul>
+                </h3>
+            </div>
+            <div style="text-align: center;">
+                <h1 style="font-size: 35px; color: blue;"> HELP LINK</h1>
+                <h3 style="color: white;">
+                    <ul>
+                        <li>Terms of Use</li>
+                        <li>Private Policy</li>
+                        <li>Helps</li>
+                        <li>FQAs</li>
+                        <li>Contact</li>
+                    </ul>
+                </h3>
+            </div>
+            <div style="padding-right:40px ;">
+                <h1 style="font-size: 35px; color: blue;"> DETAILS</h1>
+                <h3 style="color: white;">
+                    <ul>
+                        <li>Kk Nagar, Chennai</li>
+                        <li>8072185198</li>
+                        <li> toptechdevelopers001@gmail.com
+                        </li>
+
+                    </ul>
+                </h3>
+            </div>
+
+        </div>
+
+
+
+</body>
+</html>
